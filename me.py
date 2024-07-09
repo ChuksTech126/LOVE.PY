@@ -36,14 +36,14 @@ else:
 
 simi_age = 56
 
-if simi_age <= 70:
+if simi_age <= 54:
     print("I am matured")
 else:
     print("You are not matured")
     
 bimpe = 18
 
-if bimpe <= 30:
+if bimpe >= 31:
     print("is married lady who is well known for promiscuity")
 else:
     print("is promiscous and has not gotten a man")       
