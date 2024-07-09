@@ -42,8 +42,10 @@ else:
     print("You are not matured")
     
 bimpe = 18
-
+    #bimpe is a girl 
+    #She is born on the street
+    #I know of this
 if bimpe >= 31:
     print("is married lady who is well known for promiscuity")
 else:
-    print("is promiscous and has not gotten a man")       
+    print("is promiscous and has not gotten a man")
