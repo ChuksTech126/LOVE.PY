@@ -27,3 +27,17 @@ print(int)
 print(string)
 stay = "In Python, life is cool for programmer"
 print(stay)
+age = 50
+
+if age <= 30:
+    print("you are an adult")
+else:
+    print("you are a minor")   
+
+simi_age = 56
+
+if simi_age <= 70:
+    print("I am matured")
+else:
+    print("You are not matured")
+     
