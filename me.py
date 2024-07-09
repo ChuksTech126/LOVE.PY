@@ -19,3 +19,11 @@ power = 2 ** 3
 print (power)
 power = 2 * 3
 print(power)
+g=f=t="Life Racing"
+print("Life Racing")
+int = 60
+string = "Python is prefectly easy"
+print(int)
+print(string)
+stay = "In Python, life is cool for programmer"
+print(stay)
