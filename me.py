@@ -49,3 +49,25 @@ if bimpe >= 31:
     print("is married lady who is well known for promiscuity")
 else:
     print("is promiscous and has not gotten a man")
+Count = 10
+while Count < 15:
+    print(f"Count = {Count}")
+    Count +=1
+Score = 13
+while Score > 9:
+    print(f"Score = {Score}")
+    Score -=1
+
+
+    
+fruits = ["banana", "EGG", "MANGO"]
+for index,  fruit in enumerate(fruits):
+    print(f"{index}.fruit: {fruit}")
+    
+
+for number in range(6):
+    print(f"{number}")
+    
+for letter in range( 9, 29):
+    print(f"{letter}")
+    
