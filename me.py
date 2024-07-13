@@ -70,4 +70,91 @@ for number in range(6):
     
 for letter in range( 9, 29):
     print(f"{letter}")
-    
+    """
+    Hello world, I am here again just as you have always wanted to show up every fucking day
+    I will continually show up irrespective of what happens 
+    not minding what happens i will show up for what i do
+    Thanks for being yo
+    """
+#print("Hello, PLS God help me")
+
+x = 10
+y = "Love"
+print(x)
+
+
+z ='love'
+z ='great'
+print(z)
+
+
+y, u, p = 10, 7, 9
+print(y)
+print(u)
+print(p)
+
+
+g = l = d = "Great Man"
+print(g)
+print(l)
+print(d)
+
+
+#Unpacking a list
+fruits = ['grape', 'apple', 'orange']
+g, a, o = fruits
+print(g)
+print(a)
+print(o)
+
+
+"""
+I learn about outputting a multiple variable
+with each value forming a single result
+"""
+x = "mango "
+y = "is " 
+z = "good"
+print(x+y+z)
+
+
+#Mathematical additions in python
+s = 15
+r = 40
+print(s+r)
+
+#defining a function and calling it
+#global variable concept
+q = "Awesome"
+
+def my_func():
+    print("Python is", q)
+my_func()
+
+
+#displacing a global variable and using a variable within function
+#for clarity sake 
+q = "Awesome"
+
+def my_func():
+    q = "coding fans"
+    print("python is ", q)
+my_func()
+
+#global variable continues 
+q = "Awesome"
+
+def my_func():
+    e = "fanstatical"
+    print("python is", e)
+my_func()
+
+print("python is ", q)
+
+#making a function variable global
+def my_some():
+    global t
+    t = "Major"
+my_some()
+
+print("python is", t)
