@@ -319,27 +319,57 @@ if e > 55:
     print("Truth")
 else:
     print("lost")
-    
-we = ['love', 'great', 'python']
-you = ['true', 'lies', 'em']
- 
-while d < c:
-      print(d)
-      d += 1
-if d == 50:
-     print('o')
+
+  
+u = 10
+z = 3
+while z < u:
+      print(z)
+      if z == 10:
+        continue
+      z += 1
 else:
-    print('great'.upper())
-    
-for x in "Noted":
-    print(x)
-
-great = [23, 40, 68, 90]
-for x in great:
-    print(x)
-    
-for y in great:
-    pass
-
-for y in range(10):
+      print("The Truth")
+      
+qwerty = ["love", "great", "You"]
+for y in qwerty:
     print(y)
+    if y == "great":
+      continue
+else:
+    print('none')
+    
+esther = ['Joy', 'Thomas', 'Ruth']
+micah  = ['white', 'Yellow', 'green']
+for e in esther:
+ for m in micah:
+    print(e, m)
+    
+mine = ['mikel', 'obi', 'josiah']
+football = ['jay', 'okocha', 'martins']
+female = ['asisat', 'yemi', 'Simi']
+for n in mine:
+ for b in football:
+  for l in female :
+      print(n, b, l)
+      
+      
+#Functions RELOOK
+def my_func(fname):
+    print(fname)
+my_func('Emily') 
+my_func('Tobias')
+my_func('Nwachuwku Abraham Ikechukwu')
+
+#FUNCTION CONTINUATION
+def your_func(fname, lname):
+    print(fname, '', lname)
+your_func('Abraham',  'Nwachukwu')
+
+y = "kids"
+def their_function(*name):
+   print(f"my name is ", name[0].capitalize(), 'I am a proud father of three wonderful {y}')
+   print(f"my {y} are ", name[1]. capitalize(),"", name[2]. capitalize(),"", name[3].capitalize())
+   print(f"the youngest of my {y} is", name[2]. upper())
+    
+their_function('abraham,', 'favour,', 'divine,', 'maduabuchi')
