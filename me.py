@@ -158,3 +158,188 @@ def my_some():
 my_some()
 
 print("python is", t)
+
+#NUMBER CONVERSION IN PYTHON
+#THE FIRST IS #INT
+#THE SECOND IS #FLOAT
+#THE THIRD IS #COMPLEX
+t = 4
+u = 3.8
+y = 4j
+
+i = complex(t)
+o = float(t)
+print(i, o,)
+
+#A start at random from previous- Number
+from ast import Break
+import random 
+e = range(1,9)
+print(random.randrange(1, 9))
+
+y = float("56")
+u = float("8.9")
+i = float("7")
+print(y, u, i)
+
+
+r = str(56)
+print(r)
+
+
+#BOOLEAN RETURNS TRUE OR FALSE MOSTLY DEPENDING ON CONDITION
+W = 20
+i = 40
+
+if W < i:
+    print('TRUE')
+else :
+    print('FALSE')
+    
+def Func():
+    return True
+if Func():
+    print('yes')
+else:
+    print('no')
+
+#multiline string
+a = """ i love  God
+tthe Lord is Goood
+he is A great God
+"""
+print(a)
+
+w = " he is 'Johnny'"
+print(w[13])
+
+
+#loop thru String
+for s in "bananas":
+    print(s)
+    
+e = 'Hello, World'
+print(len(e))
+print(e[4])
+
+#this search for a keyword in string and specifies whether present or not 
+txt = "The best things in life are free!"
+if "free" in txt:
+  print('True'.lower())
+  
+txt = "The Best Things in life are free"
+if "love" not in  txt:
+    print('false'.upper())
+    
+    
+y =  "hello, World"
+print(y[2:5])
+
+print(y[:-1])
+
+t = 'hello world'
+print(t.split())
+
+u = "heloo, myG"
+print(u.upper())
+
+y = "hello daddy"
+print(y.lower())
+
+e = " great man "
+u = (e.replace("a", "e",))
+print(u.strip())
+
+print( y, u)
+
+age = 36
+myself = f"my name is Nwachukwu Abraham Ikechukwu, I am {age}"
+print (myself)
+
+litre = f"the price per is {age:.2f}"
+print(litre)
+
+mine = 80
+you =  f"i like me {age + mine}"
+print(you)
+
+#The IF statements
+a = 40
+b = 30
+if b > a:
+    print("The greater value")
+elif b == a:
+    print("same value")
+else:
+    print("The lesser value")
+    
+c = 30
+d = 30
+if d > c:
+    print("The greater value")
+elif d == c:
+    print("same value")
+else:
+    print("The lesser value")
+#Assignment for if condition
+A = 600
+d= 50
+if d > A:
+    print("The greater Number")
+elif A == d:
+    print("The Equal")
+else:
+    print("you are alone")
+    
+c = 55
+e = 60
+if d < A and e > c:
+    print("True condition")
+
+if A > d or e > c:
+    print("Truth of it")
+else:
+    print("possibility")
+    
+if  not d > A and e > c:
+    print("Not variable")
+else:
+    print("god of python")
+    
+if A > d:
+    pass
+
+A = 600
+d= 50
+c = 55
+e = 60
+if A > d:
+    print("True")
+if e > 55:
+    print("Truth")
+else:
+    print("lost")
+    
+we = ['love', 'great', 'python']
+you = ['true', 'lies', 'em']
+ 
+while d < c:
+      print(d)
+      d += 1
+if d == 50:
+     print('o')
+else:
+    print('great'.upper())
+    
+for x in "Noted":
+    print(x)
+
+great = [23, 40, 68, 90]
+for x in great:
+    print(x)
+    
+for y in great:
+    pass
+
+for y in range(10):
+    print(y)
